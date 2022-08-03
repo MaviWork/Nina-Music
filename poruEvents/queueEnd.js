@@ -1,5 +1,5 @@
 module.exports.run = async (client,player) => {
 
-  player.textChannel.send({content:`Queue has ended!`});
+  player.textChannel.send({content:`گۆرانیەکە تەواو بوو`});
   player.destroy();
 }
