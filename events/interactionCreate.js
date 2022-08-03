@@ -14,12 +14,12 @@ if (!command) return
 
     //Voice Only
     if (command.inVc && !memberChannel) {
-      return interaction.reply('You must be in a Voice Channel to use this Command!')
+      return interaction.reply('تکایە برۆ ڤۆیسەک ئنجا کۆماند لێدە')
     }
   //same vc
   if (command.sameVc && player && botChannel !== memberChannel) {
 
-    return interaction.reply('You must be in the same Voice Channel as me!')
+    return interaction.reply('ژورەکە  فولە')
 
 
   }
