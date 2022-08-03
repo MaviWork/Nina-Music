@@ -12,8 +12,6 @@ module.exports.run = async (client,player,track) => {
 **ناوی چەناڵ**
 ${track.info.author}
 
-**SOURCE**
-${track.info.sourceName}
 
 **چەند دەقەیە**
 ${ms(track.info.length)}
