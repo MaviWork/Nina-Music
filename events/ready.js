@@ -5,7 +5,8 @@ module.exports.run = async (client) => {
  
     setInterval(() => {
       const statuses = [
-        `Poru Music`,
+        `Create by GURGA`,
+       `WT UP....`
       ];
       const status = statuses[Math.floor(Math.random() * statuses.length)];
       client.user.setActivity(status, { type: "LISTENING" });
