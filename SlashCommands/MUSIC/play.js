@@ -45,7 +45,7 @@ module.exports = {
      player.queue.add(track);
         interaction.editReply({ embeds: [{
           color: 'WHITE',
-          description: `Added: \`${track.info.title}\``
+          description: `بۆی زیادکرا: \`${track.info.title}\``
         }] });
         if (!player.isPlaying && !player.isPaused) return player.play();
         
