@@ -36,12 +36,12 @@ module.exports.run = async (client, message) => {
 
     //Voice Only
     if (command.inVc && !memberChannel) {
-      return message.channel.send('You must be in a Voice Channel to use this Command!')
+      return message.channel.send('تکایە برۆ ڤۆیسەک ئنجا کۆماند لێدە')
     }
   //same vc
   if (command.sameVc && player && botChannel !== memberChannel) {
 
-    return message.channel.send('You must be in the same Voice Channel as me!')
+    return message.channel.send('ژورەکە  فولە')
 
 
   }
