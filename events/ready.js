@@ -10,6 +10,6 @@ module.exports.run = async (client) => {
       ];
       const status = statuses[Math.floor(Math.random() * statuses.length)];
       client.user.setActivity(status, { type: "LISTENING" });
+      client.user.setStatus("dnd");
     }, 60000);
-
 }
