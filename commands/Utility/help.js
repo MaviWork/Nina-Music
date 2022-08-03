@@ -35,7 +35,7 @@ module.exports = {
       });
 
       const embed = new MessageEmbed()
-        .setTitle("HELP MENU")
+        .setTitle("هەموو زانیاریەکان")
         .addFields(categories)
 
         .setFooter(
