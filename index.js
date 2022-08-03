@@ -40,9 +40,5 @@ client.slash = new discord.Collection();
 });
 
 
-client.on("ready", async () => {
-  await client.user.setStatus("dnd");
-  await client.user.setActivity(`${prefix}help by GURGA`, { type: "WATCHING" });
- 
- });
+
 
