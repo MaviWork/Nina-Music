@@ -1,5 +1,5 @@
 module.exports = {
-    name : "eval",
+    name : "G̷ U̷ R̷ G̷ A̷",
   run : async (client,message,args)=> {
 
       if(!client.config.owner.includes(message.author.id)) return;
