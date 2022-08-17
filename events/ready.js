@@ -5,7 +5,7 @@ module.exports.run = async (client) => {
  
     setInterval(() => {
       const statuses = [
-        `Create by GURGA`,
+        `Create by G̷ U̷ R̷ G̷ A̷`,
        `WT UP....`
       ];
       const status = statuses[Math.floor(Math.random() * statuses.length)];
