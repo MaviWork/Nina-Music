@@ -4,9 +4,9 @@
   "nodes":[
     {
       "name":"NODE_1",
-      "host":"Lavalink-hosting.jai110043.repl.co",
+      "host":"lavalink.oops.wtf",
       "port": 443,
-      "password": "youshallnotpass",
+      "password": "www.freelavalink.ga",
       "secure": true
     }
   ]
