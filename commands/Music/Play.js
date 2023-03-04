@@ -1,5 +1,5 @@
 module.exports = {
-  name: "play",
+  name: "p",
   inVc: true,
   sameVc:true,
   args: true,
