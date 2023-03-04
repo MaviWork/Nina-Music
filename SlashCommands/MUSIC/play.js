@@ -1,7 +1,7 @@
 const { ApplicationCommandOptionType } = require('discord-api-types/v9');
 
 module.exports = {
-  name: "play",
+  name: "p",
   description: "play a track",
   inVc: true,
   sameVc: true,
