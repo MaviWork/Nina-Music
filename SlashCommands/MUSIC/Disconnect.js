@@ -2,7 +2,7 @@ const { MessageEmbed } = require('discord.js')
 const { ApplicationCommandOptionType } = require('discord-api-types/v9');
 
 module.exports = {
-  name: "disconnect",
+  name: "stop",
   description: "disconnect the bot!",
   inVc: true,
   sameVc: true,
