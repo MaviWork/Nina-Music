@@ -1,5 +1,5 @@
 module.exports = {
-  name: "disconnect",
+  name: "stop",
   inVc: true,
   sameVc: true,
   player: true,
