@@ -1,4 +1,4 @@
-let slash = []
+let slash = [$]
 const { readdirSync } = require("fs");
 const ascii = require("ascii-table");
 
